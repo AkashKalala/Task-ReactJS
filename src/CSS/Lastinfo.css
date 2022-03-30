@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.b-div-8 {
+    width: 100vw;
+    background: #F8F9FB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-last{
+    margin: 50px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-1 {
+    height: 95%;
+    /* margin-right: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-1-1{
+    margin-bottom: 20px;
+    align-items: center;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-1-1-t {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info-1-1-t p{
+    margin-left: 20px;
+    font: normal normal bold 20px Noto Sans;
+    letter-spacing: 0.1px;
+    opacity: 1;
+}
+
+.info-1-1-c {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-1-1-c div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.info-1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25%;
+}
+
+.info-1-2-t{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.info-1-2-t p{
+    margin-left: 20px;
+    font: normal normal bold 20px Noto Sans;
+    letter-spacing: 0.1px;
+    opacity: 1;
+}
+
+.info-icons{
+    display: flex;
+    height: 70%;
+}
+
+.logo-img {
+    margin-left: 2px;
+    width: 60px;
+}
+
+.social-img{
+    margin-left: 20px;
+    width: 35px;
+}
+
+.fb{
+    margin-left: 10px;
+}
+
+.info-2 {
+    height: 97%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-t{
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}
+
+.form-t p{
+    width: 70%;
+    font: normal normal bold 18px Noto Sans;
+    letter-spacing: 0px;
+    color: #201F23;
+    opacity: 1;
+}
+
+.form1{
+    width: 100%;
+    height: 100%;
+}
+
+.form-main{
+    margin-top: 50px;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid #01CB63;
+    border-radius: 2px;
+    opacity: 1;
+    background: transparent;
+    margin-bottom: 40px;
+    font: italic normal normal 15px Noto Sans;
+    letter-spacing: 0px;
+    color: #86919D;
+    opacity: 1;
+    padding-bottom: 10px;
+}
+
+textarea {
+    border: 2px solid #01CB63;
+    border-radius: 2px;
+    opacity: 1;
+    background: transparent;
+    width: 80%;
+    height: 100%;
+    font: italic normal normal 15px Noto Sans;
+    letter-spacing: 0px;
+    color: #86919D;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.form-div-4 button{
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    font: normal normal italic 13px Noto Sans;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+.form-div-1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-div-2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-div-3{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

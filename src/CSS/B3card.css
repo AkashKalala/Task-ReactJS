@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.comp3{
+    display:flex;
+    flex-direction:column;
+    width: 25%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E6E6E6;
+    border-radius: 15px;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.com3img{
+    background-color: #01CB63;
+}
+
+.dpimg3{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.time-class{
+    padding-left: 30px;
+    padding-right: 30px;
+    display:flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #E2E2E2;
+}
+
+.info3-2{
+    display:flex;
+    align-items:flex-end;
+}
+
+.title3{
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: normal normal bold 16px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F2532;
+    opacity: 1;
+}
+
+.totalcount3{
+    font: normal normal bold 12px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F2532;
+}
+
+.students3{
+    font: normal normal normal 12px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F2532;
+}
+
+.time-3{
+    font: italic normal bold 12px Noto Sans;
+    letter-spacing: 0px;
+    color: #86919D;
+    opacity: 1;
+    margin-left: 5px;
+}
+
+.classes-3{
+    font: italic normal bold 12px Noto Sans;
+    letter-spacing: 0px;
+    color: #86919D;
+    opacity: 1;
+    margin-left: 5px;
+}
+
+.teacher3{
+    font: normal normal bold 16px Noto Sans;
+    letter-spacing: 0px;
+    color: #1F2532;
+    opacity: 1;
+    margin-left: 5px;
+}
+
+.pcost3{
+    font: normal normal bold 16px Noto Sans;
+    letter-spacing: 0.2px;
+    color: #01CB63;
+    opacity: 1;
+}
+
+.ocost3{
+    text-decoration: line-through;
+    font: normal normal bold 10px Noto Sans;
+    letter-spacing: 0.14px;
+    color: #1F2532;
+    opacity: 1;
+}
+
+.count3div{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info3-1{
+    display:flex;
+    align-items: center;
+}
+
+.dp32img{
+    width: 25px;
+    border-radius: 100px;
+}
+
+.totaltime-3{
+    display:flex;
+    align-items: center;
+}
+
+.totalclasses3{
+    display:flex;
+    align-items: center;
+}
+
+.time1img{
+    width: 15px;
+}
+
+.lecture1img{
+    width: 15px;
+}
+
+/* Media */
+
+@media (max-width: 1140px) {
+
+    .comp3{
+        width: 70%;
+        margin-top: 50px;
+    }
+}

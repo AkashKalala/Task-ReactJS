@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.Header {
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Header-Total {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-1 {
+    width: 212px;
+    height: 55px;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+button {
+    /* padding: 10px; */
+    margin: 10px;
+    margin-left: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.register {
+    background: #01CB63 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #01CB6359;
+    border-radius: 10px;
+    opacity: 1;
+    font-family: Noto Sans;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    font: normal normal Italic 15px Noto Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.login {
+    background: transparent;
+    border: none;
+    letter-spacing: 0px;
+    color: #1F2532;
+    opacity: 1;
+    font: normal normal bold 15px Noto Sans;
+}
